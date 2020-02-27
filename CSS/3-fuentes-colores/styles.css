@@ -1,0 +1,44 @@
+/* importar y configurar una fuente css3 */
+@font-face {
+    font-family: SrirachaFuenteCustom; /* nombre que le demos a la fuente */
+    src: url(./fonts/Sriracha/Sriracha-Regular.ttf);
+}
+
+h1 {
+    /* aplicar una fuente */
+    font-family: 'Lacquer', sans-serif;
+    /* poner la letra en cursiva */
+    font-style: italic;
+    /* poner en mayus o minus */
+    text-transform: uppercase;
+    /* tamaño de fuente */
+    font-size: 45px;
+    /* Colores */
+    /* Colores del sistema */
+    color: mediumpurple;
+
+    /* colores hexadecimales */
+    color: #ac1f1f;
+
+    /* colores RGB */
+    color: rgb(225, 225, 107);
+
+    /* colores RGBA */
+    color: rgb(225, 225, 107, 0.5); /* opacidad */
+}
+
+h3 {
+    font-family: SrirachaFuenteCustom, "Comic Sans MS";
+    /* tamaño de fuente */
+    font-size: 30px;
+    /* grosor de la fuente */
+    font-weight: bolder;
+    color: olive;
+}
+
+p {
+    font-family: sans-serif;
+    font-size: 18px;
+    /* grosor de la letra */
+    font-weight: lighter; /* también depende de la fuente */
+}
