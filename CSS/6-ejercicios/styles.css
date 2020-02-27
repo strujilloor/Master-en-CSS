@@ -9,7 +9,7 @@ Ejercicio compoleto con HTML y CSS
 (HECHO) 4. Header debe ocupar el 100% del ancho y tener texto grande
     centrado.
 (HECHO) 5. Menu debe tener los elementos uno al lado del otro
-6. El contenido principal debe tener un ancho del 70%
+(HECHO) 6. El contenido principal debe tener un ancho del 70%
 7. El contenido dentro del contenedor principal debe ser
     una cuadricula con 4 lineas de 2 cajas
 8. La barra lateral debe tener un ancho 30%
@@ -68,6 +68,11 @@ Ejercicio compoleto con HTML y CSS
 #menu > ul > li:hover {
     background-color: lightblue;
     cursor: pointer;
+}
+
+#content {
+    width: 70%;
+    border: 1px solid red;
 }
 
 .clearfix {
