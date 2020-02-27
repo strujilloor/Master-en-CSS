@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Formularios</title>
+</head>
+<body>
+    <h1>Título de mi web</h1>
+
+    <h3>Formulario</h3>
+
+    <!-- formulario -->
+    <form 
+        action=""
+        method="get"
+    > <!-- action: indicar a donde va ir, method: que metodo http vamos a utilizar -->
+
+
+        <p> <!-- ponemos un parrafo en cada campo para tener un salgo de linea -->
+            <label for="nombre">Nombre</label> <!-- for: a que campo pertenece(id del campo) -->
+            <!-- campo de tipo texto -->
+            <input 
+                type="text" 
+                name="nombre" 
+                id="nombre"
+                placeholder="Escribe tu nombre"
+            > <!-- placeholder: indicación para el usuario -->
+        </p>
+
+        <!-- text area -->
+        <p>
+            <label for="descripcion"></label>
+            <textarea 
+                name="descripcion" 
+                id="descripcion" 
+                cols="30" 
+                rows="10">
+            </textarea>
+        </p>
+
+        <!-- Radio button -->
+        <input 
+            type="radio" 
+            name="genero" 
+            id="" 
+            value="hombre"
+        > 
+            Hombre <br/>
+        <input 
+            type="radio" 
+            name="genero" 
+            id="" 
+            value="mujer"
+        > 
+            Mujer <br/>
+        <input 
+            type="radio" 
+            name="genero" 
+            id="" 
+            value="nada"
+        > 
+            Nada <br/>
+
+        <!-- select -->
+        <select name="genero2" id="">
+            <option value="hombre">Hombre</option>
+            <option value="mujer">Mujer</option>
+            <option value="nada">Nada</option>
+        </select>
+        
+        <!-- button submit -->
+        <input type="submit" value="Enviar formulario">
+
+
+    </form>
+    
+</body>
+</html>
