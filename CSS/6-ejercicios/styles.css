@@ -10,9 +10,9 @@ Ejercicio compoleto con HTML y CSS
     centrado.
 (HECHO) 5. Menu debe tener los elementos uno al lado del otro
 (HECHO) 6. El contenido principal debe tener un ancho del 70%
-7. El contenido dentro del contenedor principal debe ser
+(HECHO) 7. El contenido dentro del contenedor principal debe ser
     una cuadricula con 4 lineas de 2 cajas
-8. La barra lateral debe tener un ancho 30%
+(HECHO) 8. La barra lateral debe tener un ancho 30%
 9. El footer debe tener un ancho del 100% del div que lo contiene 
     y estar abajo del todo.
 */
@@ -80,6 +80,25 @@ Ejercicio compoleto con HTML y CSS
     width: 30%;
     border: 1px solid green;
     float: left;
+}
+
+#content > h1 {
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+    padding: 15px;
+    color: #444;
+}
+
+#content .caja {
+    width: 40%;
+    height: 100px;
+    margin: 10px;
+    background-color: lightblue;
+    border: 5px solid lightgray;
+    color: white;
+    display: block;
+    float: left;
+    margin-left: 40px;
 }
 
 .clearfix {
