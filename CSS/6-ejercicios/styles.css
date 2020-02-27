@@ -1,14 +1,14 @@
 /* 
 Ejercicio compoleto con HTML y CSS
-1. Crear un documento HTML y vincularlo con un CSS
-2. Crear una estructura HTML que cuente con un CONTENEDOR GENERAL,
+(HECHO) 1. Crear un documento HTML y vincularlo con un CSS
+(HECHO) 2. Crear una estructura HTML que cuente con un CONTENEDOR GENERAL,
     CABECERA, MENU, BARRA LATERAL, SECCION DE CONTENIDO PARCIAL,
     ELEMENTOS DENTRO DEL CONTENEDOR PRINCIPAL, Y FOOTER.
-3. Todo el contenido debe estar dentro del contenedor general,
+(HECHO) 3. Todo el contenido debe estar dentro del contenedor general,
     y su ancho será de 1200px y centrado
-4. Header debe ocupar el 100% del ancho y tener texto grande
+(HECHO) 4. Header debe ocupar el 100% del ancho y tener texto grande
     centrado.
-5. Menu debe tener los elementos uno al lado del otro
+(HECHO) 5. Menu debe tener los elementos uno al lado del otro
 6. El contenido principal debe tener un ancho del 70%
 7. El contenido dentro del contenedor principal debe ser
     una cuadricula con 4 lineas de 2 cajas
@@ -39,4 +39,38 @@ Ejercicio compoleto con HTML y CSS
     background-color: lightblue;
     color: white;
     line-height: 100px;
+}
+
+#menu {
+    background-color: #eee;
+}
+
+#menu > ul > li {
+    /* display: inline-block; */ /* es una opción */
+    display: block;
+    float: left;
+    border-right: 1px solid #ccc;
+}
+
+#menu > ul > li > a {
+    color: #444;
+    /* hará que los a ocupen todo el espacio y puedas dar click en 
+    cualquier parde del li */
+    display: block;
+    padding: 15px;
+}
+
+/* interesante */
+#menu > ul > li:hover > a {
+    color: white;
+}
+
+#menu > ul > li:hover {
+    background-color: lightblue;
+    cursor: pointer;
+}
+
+.clearfix {
+    float: none;
+    clear: both;
 }
