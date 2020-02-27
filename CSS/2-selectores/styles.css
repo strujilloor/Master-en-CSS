@@ -85,7 +85,7 @@ input[type="submit"] {
 
 /* Selectores hijo */
 
-#menu > li > a {
+#menu > li > a { /* seleccionaría los elementos hijos pero no los nietos */
     font-size: 18px;
     color: red;
     text-decoration: none;
