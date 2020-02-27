@@ -71,8 +71,15 @@ Ejercicio compoleto con HTML y CSS
 }
 
 #content {
-    width: 70%;
+    width: 69%;
     border: 1px solid red;
+    float: left;
+}
+
+#sidebar {
+    width: 30%;
+    border: 1px solid green;
+    float: left;
 }
 
 .clearfix {
