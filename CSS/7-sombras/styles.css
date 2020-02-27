@@ -53,6 +53,11 @@
     box-shadow: 5px 5px 10px grey;
 }
 
+#content .caja:hover {
+    background-color: rgb(103, 236, 103);
+    box-shadow: 5px 5px 10px grey inset;
+}
+
 .sombra-interior {
     /* SOMBRA INTERIOR EN CAJAS */
     box-shadow: 5px 5px 10px grey inset !important;
