@@ -17,7 +17,8 @@ hay una propiedad que se llama overflow, y tengo varias opciones:
 overflow: hidden;
 ```
 Todo lo que se salga fuera de la caja va a desaparecer, no se queda visible.
-![overflow-hidden](./overflow-hidden.png "overflow-hidden")
+<img src="./overflow-hidden.png" width="400px">
+<!-- ![overflow-hidden](./overflow-hidden.png "overflow-hidden") -->
 
 ___
 
@@ -33,7 +34,8 @@ ___
 overflow: scroll;
 ```
 Se crea una barra de desplazamiento, para que pueda ver ese contenido.
-![overflow-scroll](./overflow-scroll.png "overflow-scroll")
+<img src="./overflow-scroll.png" width="400px">
+<!-- ![overflow-scroll](./overflow-scroll.png "overflow-scroll") -->
 
 ___
 
@@ -42,4 +44,5 @@ A muchos no les gusta la barra horizontal del scroll
 overflow-y: scroll;
 ```
 me pondrá scroll solamente en el eje vertical.
-![overflow-scroll-y](./overflow-scroll-y.png "overflow-scroll-y")
+<img src="./overflow-scroll-y.png" width="400px">
+<!-- ![overflow-scroll-y](./overflow-scroll-y.png "overflow-scroll-y") -->
