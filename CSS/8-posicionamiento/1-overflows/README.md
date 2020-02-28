@@ -36,7 +36,7 @@ Se crea una barra de desplazamiento, para que pueda ver ese contenido.
 
 ___
 
-A muchos no les gusta que la barra horizontal del scroll 
+A muchos no les gusta la barra horizontal del scroll 
 ```css
 overflow-y: scroll;
 ```
