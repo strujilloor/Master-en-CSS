@@ -51,6 +51,12 @@
     text-transform: uppercase;
     /* SOMBRAS EN CAJAS */
     box-shadow: 5px 5px 10px grey;
+    /* BORDES REDONDEADOS */
+    border-radius: 30px;
+    /* border-radius: supizq supder infder infizq */
+    border-radius: 60px 10px 4px 40px;
+    /* un circulo */
+    /* border-radius: 100%; */
 }
 
 #content .caja:hover {
