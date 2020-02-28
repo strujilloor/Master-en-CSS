@@ -8,6 +8,7 @@ imaginate que tengo una caja de un tamaño limitado
 max-height: 650px;
 ```
 y todo su contenido se sale fuera:
+
 <img src="./overflows-1.png" width="400px">
 <!-- ![overflow-1](./overflows-1.png "overflow-desborda") -->
 
@@ -44,5 +45,6 @@ A muchos no les gusta la barra horizontal del scroll
 overflow-y: scroll;
 ```
 me pondrá scroll solamente en el eje vertical.
+
 <img src="./overflow-scroll-y.png" width="400px">
 <!-- ![overflow-scroll-y](./overflow-scroll-y.png "overflow-scroll-y") -->
