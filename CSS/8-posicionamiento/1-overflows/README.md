@@ -8,7 +8,7 @@ imaginate que tengo una caja de un tamaño limitado
 max-height: 650px;
 ```
 y todo su contenido se sale fuera:
-<img src="./overflows-1.png" width="60%">
+<img src="./overflows-1.png" width="400px">
 <!-- ![overflow-1](./overflows-1.png "overflow-desborda") -->
 
 hay una propiedad que se llama overflow, y tengo varias opciones:
