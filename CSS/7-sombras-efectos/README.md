@@ -38,10 +38,10 @@ con inset
 }
 ```
 ### Sombras en cajas y textos
-![Drag Racing](./sombras.png "sombras")
+<img src="./images/sombras.png" width="400px">
 
 
 ### Bordes redondos
-![Drag Racing](./bordes-redondeados.png "Bordes redondeados")
+<img src="./images/bordes-redondeados.png" width="380px">
 
 Move along.
