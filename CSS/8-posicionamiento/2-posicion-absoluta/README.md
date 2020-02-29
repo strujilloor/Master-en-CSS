@@ -74,7 +74,7 @@ selector2 {
 ```
 ![absolute](./images/absolute-4.png "absolute")
 
-Si utilizamos la propiedad z-index que caja esta encima de la otra (la de mayor número estára encima):
+Si utilizamos la propiedad z-index definiremos que caja esta encima de la otra (la de mayor número estára encima):
 ```CSS
 selector {
     position: absolute;
