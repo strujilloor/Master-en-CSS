@@ -65,4 +65,5 @@ input[type="text"]:focus {
 ```
 ___
 Finalmente:
+
 <img src="./screenshots/pseudoclases-2.png" width="600px">
