@@ -76,7 +76,7 @@ body {
 #nav ul {
     list-style: none;
     text-decoration: none;
-    margin: 0px auto;
+    /* margin: 0px auto; */
     /* width: 1024px; */
     display: inline-block;
     height: 40px;
